@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Discover luxury perfumes at WPerfumes. Shop our exclusive collection with free shipping on orders over USD 100.">
+    <title>WPerfumes - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="announcement-bar">
+        <div class="announcement-text-container">
+            <ul class="announcement-list">
+                <li>Buy now, pay later</li>
+                <li>Free delivery</li>
+                <li>Cash on delivery</li>
+                <li>Free Shipping Above USD 100</li>
+                <li>Shop with us Now</li>
+            </ul>
+        </div>
+        <div class="location-options">
+            <div class="country-selector">
+                <label for="country-dropdown">Shop from:</label>
+                <select id="country-dropdown" aria-label="Select your country">
+                    <option value="singapore">Singapore</option>
+                    <option value="france">France</option>
+                    <option value="dubai">Dubai</option>
+                    <option value="india">India</option>
+                    <option value="thailand">Thailand</option>
+                </select>
+            </div>
+            <a href="/store-locator" class="store-locator-link">Store Locator</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div style="display: flex; align-items: center; flex-shrink: 0;">
+                <a href="/" class="nav-logo">WPerfumes</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/new-arrivals">New Arrivals</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="search" placeholder="Search for perfumes..." aria-label="Search perfumes">
+            </div>
+            <div class="nav-buttons">
+                <button class="cart-btn" aria-label="View cart"><span>🛒</span></button>
+                <button class="nav-btn login-btn">Login</button>
+                <button class="hamburger" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero-container">
+            <img src="https://via.placeholder.com/800x350/A2D9A5/000000?text=Discover+Your+Signature+Scent" alt="Discover Your Signature Scent" loading="eager" sizes="(max-width: 600px) 100vw, 800px">
+            <div class="hero-text">
+                <h1>Discover Your Signature Scent</h1>
+            </div>
+        </div>
+        
+        <section class="perfumes-section">
+            <div class="perfumes-header">
+                <span class="arrow" id="left-arrow" tabindex="0" role="button" aria-label="Previous perfume">&lt;</span>
+                <h2>Our Perfumes</h2>
+                <span class="arrow" id="right-arrow" tabindex="0" role="button" aria-label="Next perfume">&gt;</span>
+                <a href="/products" class="view-more-link">See More</a>
+            </div>
+            <div class="perfume-gallery">
+                <div class="perfume-images-container" id="image-container"></div>
+            </div>
+        </section>
+
+        <section class="promo-cards-section">
+            <div class="promo-cards-container">
+                <div class="promo-card">
+                    <img src="https://via.placeholder.com/400x250/CCCCCC/333333?text=Limited+Offer" alt="Limited Offer Promotion" loading="lazy" sizes="(max-width: 600px) 100vw, 400px">
+                </div>
+                <div class="promo-card">
+                    <img src="https://via.placeholder.com/400x250/DDDDDD/444444?text=Free+Gift+with+Purchase" alt="Free Gift with Purchase Promotion" loading="lazy" sizes="(max-width: 600px) 100vw, 400px">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <h2 class="testimonial-header">Your Opinion About Us</h2>
+            <div class="testimonial-wrapper">
+                <span class="testimonial-arrow" id="testimonial-left-arrow" tabindex="0" role="button" aria-label="Previous testimonial">&lt;</span>
+                <div class="testimonial-container">
+                    <div class="testimonial-slider" id="testimonial-slider">
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=A" alt="Avatar of Alex R." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"The quality of the scents is unmatched. My 'Midnight Bloom' lasts all day and I constantly get compliments. Highly recommend WPerfumes!"</p>
+                            <p class="testimonial-author">Alex R., New York</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=B" alt="Avatar of Sarah T." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"Customer service was exceptional. They helped me choose the perfect gift, and the packaging was beautiful."</p>
+                            <p class="testimonial-author">Sarah T., London</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=C" alt="Avatar of Mark D." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"I tried the 'Ocean Breeze' and it is the most refreshing fragrance I've ever worn. Five stars!"</p>
+                            <p class="testimonial-author">Mark D., Dubai</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=D" alt="Avatar of Emily K." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"Absolutely love the 'Velvet Mist'! It's subtle yet elegant, perfect for evening wear."</p>
+                            <p class="testimonial-author">Emily K., Paris</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=E" alt="Avatar of David P." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"WPerfumes has become my exclusive source for cologne. Great value for the price!"</p>
+                            <p class="testimonial-author">David P., Sydney</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=F" alt="Avatar of Jessica L." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"The 'Citrus Burst' is exactly what I was looking for. Detailed scent descriptions helped me choose."</p>
+                            <p class="testimonial-author">Jessica L., Berlin</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=G" alt="Avatar of Ben S." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"Fast shipping and secure packaging. I love the stock status updates for my signature scent."</p>
+                            <p class="testimonial-author">Ben S., Toronto</p>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/60x60/A2D9A5/000000?text=H" alt="Avatar of Chloe M." class="testimonial-image" loading="lazy">
+                            <p class="testimonial-text">"The discount section is brilliant! I snagged two incredible perfumes at amazing prices."</p>
+                            <p class="testimonial-author">Chloe M., Rome</p>
+                        </div>
+                    </div>
+                </div>
+                <span class="testimonial-arrow" id="testimonial-right-arrow" tabindex="0" role="button" aria-label="Next testimonial">&gt;</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-card footer-card-1">
+            <div>
+                <h3>Connect with Us</h3>
+                <div class="social-icons-row">
+                    <a href="https://www.facebook.com/wperfumes" class="social-icon" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/wperfumes" class="social-icon" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@wperfumes" class="social-icon" aria-label="Follow us on TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.twitter.com/wperfumes" class="social-icon" aria-label="Follow us on Twitter"><i class="fab fa-x-twitter"></i></a>
+                </div>
+                <h3>Secure Payments</h3>
+                <div class="payment-icons-row">
+                    <span class="payment-icon" aria-label="Visa Payment"><i class="fab fa-cc-visa"></i></span>
+                    <span class="payment-icon" aria-label="PayPal Payment"><i class="fab fa-cc-paypal"></i></span>
+                    <span class="payment-icon" aria-label="Apple Pay"><i class="fab fa-cc-apple-pay"></i></span>
+                    <span class="payment-icon" aria-label="MasterCard Payment"><i class="fab fa-cc-mastercard"></i></span>
+                </div>
+            </div>
+            <p class="registration-number" id="copyright">
+                &copy; WPerfumes, Inc. All Rights Reserved.<br>
+                Company Reg. No: 12345678A
+            </p>
+        </div>
+        <div class="footer-card footer-card-2">
+            <h2 class="footer-logo">WPerfumes</h2>
+            <div class="footer-link-column">
+                <h4>Company</h4>
+                <a href="/about" class="footer-link">About Us</a>
+                <a href="/vision" class="footer-link">Our Vision</a>
+                <a href="/sustainability" class="footer-link">Sustainability</a>
+                <a href="/careers" class="footer-link">Careers</a>
+            </div>
+            <div class="footer-link-column">
+                <h4>Support</h4>
+                <a href="/contact" class="footer-link">Contact Us</a>
+                <a href="/faq" class="footer-link">FAQ</a>
+                <a href="/shipping-returns" class="footer-link">Shipping & Returns</a>
+                <a href="/privacy" class="footer-link">Privacy Policy</a>
+            </div>
+            <div class="footer-link-column">
+                <h4>Explore</h4>
+                <a href="/best-sellers" class="footer-link">Best Sellers</a>
+                <a href="/gift-sets" class="footer-link">Gift Sets</a>
+                <a href="/scent-finder" class="footer-link">Scent Finder Quiz</a>
+                <a href="/blog" class="footer-link">Blog & News</a>
+            </div>
+            <div class="footer-link-column">
+                <h4>Contact Info</h4>
+                <a href="mailto:support@wperfumes.com" class="footer-link">Email: support@wperfumes.com</a>
+                <a href="tel:+15551234567" class="footer-link">Phone: +1 (555) 123-4567</a>
+                <a href="/contact#address" class="footer-link">Address: 100 Scent Lane, Perfume City</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
